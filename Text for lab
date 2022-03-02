@@ -1,0 +1,43 @@
+1   https://swapi.dev/api/people/4
+
+2. https://swapi.dev/api/planets/2
+
+3. https://swapi.dev/api/starships/10
+
+4. https://swapi.dev/api/people/2
+    https://swapi.dev/api/species/2
+
+5. https://swapi.dev/api/people/10
+    https://swapi.dev/api/films/1/
+    https://swapi.dev/api/films/2/
+    https://swapi.dev/api/films/3/
+    https://swapi.dev/api/films/4/
+    https://swapi.dev/api/films/5/
+    https://swapi.dev/api/films/6/ 
+
+6. https://swapi.dev/api/starship/?search=Millennium-Falcon
+
+
+PART 2
+
+Takes body param, and text. 
+2.   Returns an array of all posts
+3.   https://practiceapi.devmountain.com/api/post/?id=555
+4.   Code 200 and 400 5.   https://practiceapi.devmountain.com/api/posts
+       { 
+	“Text”:  “Samuel Hincks”
+       }
+6. Use put: https://practiceapi.devmountain.com/api/posts/?id=609
+	 { 
+	“Text”:  “blue”
+     	  }	
+	
+7. https://practiceapi.devmountain.com/api/posts/?text=blue 
+
+8. application/json; charset=utf-8
+
+9. Request was missing req.query.id or req.body.text
+
+10.     <pre>Cannot GET /api/posts/600</pre>
+
+Return type is an array, a query returns on object
